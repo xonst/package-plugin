@@ -34,9 +34,9 @@ module.exports = (env, options) => {
     plugins: [
       {
         apply: (compiler) => {
-          compiler.hooks.afterDone.tap('pack-zip', () => {
+          compiler.hooks.afterDone.tap('package', () => {
             // run pack-zip.js
-            exec('node .vscode/pack-zip.js', (err, stdout, stderr) => {
+            exec('node .github/package.js', (err, stdout, stderr) => {
               if (err) {
                 console.error(err);
                 return;
