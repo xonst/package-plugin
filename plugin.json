@@ -1,1 +1,17 @@
-{}
+{
+  "id": "package.plugin",
+  "name": "Package Plugin",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [""],
+  "minVersionCode": 292,
+  "price": 0,
+  "author": {
+    "name": "Xonst",
+    "email": "cm231919@gmail.com",
+    "url": "https://example.com",
+    "github": "xonst"
+  }
+}
