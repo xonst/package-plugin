@@ -1,1 +1,12 @@
-{}
+{
+  "name": "package-plugin",
+  "version": "1.0.0",
+  "description": "Package Plugin",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node .github/package.js"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
