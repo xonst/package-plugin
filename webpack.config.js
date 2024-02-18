@@ -35,7 +35,7 @@ module.exports = (env, options) => {
       {
         apply: (compiler) => {
           compiler.hooks.afterDone.tap('package', () => {
-            // run pack-zip.js
+            // run package.js
             exec('node .github/package.js', (err, stdout, stderr) => {
               if (err) {
                 console.error(err);
