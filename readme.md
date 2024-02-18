@@ -1,6 +1,6 @@
 # Package Plugin
 
-Basic structure for creating your plugin in Acode.
+Basic structure for creating plugin in Acode.
 
 For full plugin documentation go here ->
 https://acode-plugin-docs.vercel.app/
